@@ -24,6 +24,7 @@
 #include "timeout.h" // To reset the timeout
 #include "commands.h"
 
+
 // Example thread
 static THD_FUNCTION(example_thread, arg);
 static THD_WORKING_AREA(example_thread_wa, 2048); // 2kb stack for this thread
